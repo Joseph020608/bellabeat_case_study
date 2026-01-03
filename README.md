@@ -18,7 +18,7 @@ Analyze non-Bellabeat smart device usage to:
 - Fitbit Fitness Tracker Data (public dataset commonly used in the Bellabeat case study).  
   *(Raw data may not be included in this repository due to size/licensing. See the `data/` section or notes in the repo for how to obtain it.)*
 
-## Process (High Level)
+## Process
 1. Imported raw daily activity data into MySQL
 2. Created a cleaned table with parsed dates
 3. Flagged and excluded likely **non-wear** records (0 steps + 1440 sedentary minutes) using a filtered view  
@@ -44,7 +44,7 @@ Analyze non-Bellabeat smart device usage to:
   - **Zero steps (other):** 5 records  
 - Steps and calories show a positive relationship (visualized via scatter plot).
 
-## Recommendations (High Level)  Bellabeat Spring
+## Recommendations_Bellabeat Spring
 1. **Spring + Premium Trial Bundle:** Offer Spring with a 1_3 month premium trial, then use loyalty pricing to drive subscription conversion.
 2. **Hydrate & Move Micro-Habits:** Use smart reminders to encourage hydration and short movement breaks for users with high sedentary behavior.
 3. **Weekly Challenges & Rewards:** Create weekly habit challenges with daily reminders and Sunday rewards (discounts/points) to improve consistency and retention.
@@ -55,7 +55,7 @@ Analyze non-Bellabeat smart device usage to:
 - `presentation/` _ Final PowerPoint presentation  
 - `reports/` _ Written report (PDF/DOCX)
 
-## How to Reproduce (Quick Guide)
+## How to Reproduce 
 1. Download the dataset (Fitbit daily activity file)
 2. Import the CSV into MySQL (raw table)
 3. Run the SQL script to create the cleaned table and filtered view
